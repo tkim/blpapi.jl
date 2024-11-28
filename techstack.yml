@@ -1,0 +1,44 @@
+repo_name: tkim/blpapi.jl
+report_id: 9863fc02be5e8224ca58abfe2f4956aa
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:13:34+00:00'
+requested_by: openmarketdata
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tkim/blpapi.jl
+  detection_source: Repo Metadata
+- name: Julia
+  description: A high-level, high-performance dynamic programming language for technical
+    computing
+  website_url: http://pkg.julialang.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/3914/default_a30825f60d1159a8bca0d7d45c4988f63eeb2b0f.png
+  detection_source_url: https://github.com/tkim/blpapi.jl
+  detection_source: Repo Metadata
+- name: julia
+  package_url: http://pkg.julialang.org/julia
+  version: '1.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/julia/image.png
+  detection_source_url: https://github.com/tkim/blpapi.jl/blob/master/REQUIRE
+  detection_source: REQUIRE
+  last_updated_by: Owen
+  last_updated_on: 2019-02-01 06:18:58.000000000 Z
